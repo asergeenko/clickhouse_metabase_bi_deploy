@@ -18,7 +18,7 @@
 
 ### Описание набора данных
 
-**hits** - все действия, выполняемые всеми пользователями на всех веб-сайтах, охватываемых сервисом Яндекс.Метрика
+**hits** - все действия, выполняемые всеми пользователями на всех веб-сайтах, охватываемых сервисом Яндекс.Метрика (около 10 дней в марте 2014 года)
 
 **visits** - вместо отдельных действий содежит предварительно созданные сеансы
 
@@ -32,4 +32,12 @@
 
 Теперь воспользуемся кнопокой **Summarize** в интерфейсе Metabase и посмотрим на количество сеансов в зависимости от времени начала сеанса **StartTime** (сгруппируем по часу):
 
-<img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_start_time_summarize.jpg?raw=true" alt="Визиты с мобильных устройств" />
+<img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_start_time_summarize.jpg?raw=true" alt="Час начала сессии" />
+
+На кнопках столбцов в интерфейсе таблиц помимо сортировки и фильтрации можно, к примеру, построить распределение по какому-то полю. Сделаем это для продолжительности сессии (**Duration**):
+
+<img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_duration_distribution.jpg?raw=true" alt="Продолжительность сессии" />
+
+Те же данные в виде сводной таблицы (**pivot table**):
+
+<img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_duration_pivot.jpg?raw=true" alt="Продолжительность сессии (сводная таблица)" />
