@@ -29,3 +29,7 @@
 <img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_ismobile.jpg?raw=true" alt="Визиты с мобильных устройств" />
 
 Как видно, подавляющее большинство действий совершается с настольных устройств.
+
+Теперь воспользуемся кнопокой **Summarize** в интерфейсе Metabase и посмотрим на количество сеансов в зависимости от времени начала сеанса **StartTime** (сгруппируем по часу):
+
+<img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_start_time_summarize.jpg?raw=true" alt="Визиты с мобильных устройств" />
