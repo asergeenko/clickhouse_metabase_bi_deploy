@@ -28,7 +28,7 @@
 
 <img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_ismobile.jpg?raw=true" alt="Визиты с мобильных устройств" />
 
-Как видно, подавляющее большинство действий совершается с настольных устройств.
+Как видно, подавляющее большинство действий совершается с настольных устройств (данные за март 2014 года).
 
 Теперь воспользуемся кнопокой **Summarize** в интерфейсе Metabase и посмотрим на количество сеансов в зависимости от времени начала сеанса **StartTime** (сгруппируем по часу):
 
@@ -41,3 +41,6 @@
 Те же данные в виде сводной таблицы (**pivot table**):
 
 <img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_duration_pivot.jpg?raw=true" alt="Продолжительность сессии (сводная таблица)" />
+
+Посмотрим на зависимость продолжительности сессии от возраста:
+
