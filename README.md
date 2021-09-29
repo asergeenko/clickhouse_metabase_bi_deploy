@@ -42,5 +42,10 @@
 
 <img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_duration_pivot.jpg?raw=true" alt="Продолжительность сессии (сводная таблица)" />
 
-Посмотрим на зависимость продолжительности сессии от возраста:
+В заключение, посмотрим на зависимость продолжительности сессии от возраста и пола:
+
+<img src="https://github.com/asergeenko/clickhouse_metabase_bi_deploy/blob/main/screenshots/visits_age_sex_duration.jpg?raw=true" alt="Зависимость продолжительности сессии от возраста и пола" />
+
+Очевидно, что возраст 0 означает неуказанный или неизвестный возраст.
+
 
